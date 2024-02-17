@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic_tac_toe</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    
+    <div class="home" id="home">
+        <img src="sakura.jpg" style="width: 400px; height: 400px;">
+        <button class="game-play" onclick="playgame()">PLAY</button>
+    </div>
+
+<div class="center" id="game">
+    <ul class="boxes">
+        <li class="box1" id="box1" onclick="option(this)"></li>
+        <li class="box1" id="box2" onclick="option(this)"></li>
+        <li class="box1" id="box3" onclick="option(this)"></li>
+
+    </ul>
+
+    <ul class="boxes">
+        <li class="box1" id="box4" onclick="option(this)"></li>
+        <li class="box1" id="box5" onclick="option(this)"></li>
+        <li class="box1" id="box6" onclick="option(this)"></li>
+
+    </ul>
+
+    <ul class="boxes">
+        <li class="box1" id="box7" onclick="option(this)"></li>
+        <li class="box1" id="box8" onclick="option(this)"></li>
+        <li class="box1" id="box9" onclick="option(this)"></li>
+    </ul>
+<p id="result" class="result">winner is:</p>
+
+<div class="btns">
+    <button class="reload" onclick="reload()">Reload</button>
+
+    <button class="restart" onclick="restart()">Restart</button>
+</div>
+
+
+</div>
+
+    <script src="project.js"></script>
+</body>
+</html>

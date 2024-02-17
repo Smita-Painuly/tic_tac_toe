@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.box1{
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+    list-style: none;
+    border-radius: 5px;
+    border: 2px solid rgb(52, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.boxes{
+    display: flex;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: none;
+}
+.result{
+    color: white;
+    font-size: 40px;
+    display: none;
+}
+.home{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game-play{
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.reload{
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-right: 20px;
+}
+.restart{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: none;
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
